@@ -1,8 +1,8 @@
 $(document).ready(
   function() {
-    $('button').mouseover(
+    $('.dropdown_link').mouseover(
       function(){
-        $(this).next('dropdown').toggleClass('active');
+        $(this).children('.dropdown').toggleClass('active');
       }
     );
   }
